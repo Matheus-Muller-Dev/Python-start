@@ -1,0 +1,20 @@
+projeto de automação de graficos
+
+boot de vendas
+	acessar facebook
+	colocar dados
+	enviar publi por mensagens
+	enviar publi em grupos
+	
+
+puxar dados em tempo real de cliques no intem há venda
+todos os itens abaixo de 
+	item < 50 cliques
+	[enviar (boot de vendas)]
+-------------------------------------------------------------
+intens há venda
+total de cliques  |  total de intens há venda  | total intens compartilhados
+     100		        30			     60
+
+grafico em tempo real
+

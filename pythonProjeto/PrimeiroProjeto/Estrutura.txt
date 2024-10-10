@@ -1,0 +1,11 @@
+Primeiro Projeto/
+|--- Lib/
+|------- arquivo/
+|------------------__pychache__/
+|------------------__init__.py
+|--------interface/
+|------------------__pychache__/
+|------------------__init__.py
+|banco.txt
+|sistema.py
+
