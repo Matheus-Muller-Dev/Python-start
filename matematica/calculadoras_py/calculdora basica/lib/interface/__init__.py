@@ -19,7 +19,7 @@ def linha(tam = 42):
 
 def cabecalho(txt):
     print(linha())
-    print(txt.center(42))
+    print(f'{txt.center(30)}')
     print(linha())
 
 def menu(lista):
