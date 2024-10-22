@@ -51,9 +51,7 @@ def tratar_senha_fraca():
         for _ in range(caracteres_faltantes):
             nova_senha += random.choice(string.ascii_latters + string.digits + '@#$%¨&*')
     
-    # inserir interface para mostrar nova senha
-    # 0---------------------------------------
-    # inserir interface para mostrar nova senha
+    cabecalho(f'Nova Senha: {nova_senha}')
  
 def verificar_senha_segura():
     password = input('Digite sua senha com base nos requisitos: ')
