@@ -4,7 +4,7 @@ def leiaInt(msg):
         try:
             n = int(input(msg))
         except (ValueError, TypeError):
-            print('')
+            print('ERRO!  Pro favor digite um número inteiro válido.')
             continue
 
         except (KeyboardInterrupt):
@@ -26,7 +26,7 @@ def cabecalho(txt):
 
 #
 def menu(lista):
-    cabecalho('')
+    cabecalho('GERADOR DE SENHA')
     c = 1
 
     for i in lista:
@@ -35,5 +35,5 @@ def menu(lista):
 
     print(linha())
 
-    opc = leiaInt('Sua Opção')
+    opc = leiaInt('Sua Opção: ')
     return opc

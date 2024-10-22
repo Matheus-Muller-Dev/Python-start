@@ -48,7 +48,7 @@ def tratar_senha_fraca():
     # 0---------------------------------------
     # inserir interface para mostrar nova senha
  
-def veriifica_senha_segura():
+def verificar_senha_segura():
     password = input('Digite sua senha com base nos requisitos: ')
 
     letras_maisculas = string.ascii_uppercase
