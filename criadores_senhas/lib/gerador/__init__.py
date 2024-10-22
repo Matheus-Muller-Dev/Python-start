@@ -3,6 +3,8 @@ import string
 import random
 
 def criar_nova_senha():
+    cabecalho('Uma senha segura deve conter: ')
+    infolista(['-- Letra maiúscula', '-- Letra maiúscula', '-- Números', '-- Símbolos @#$%¨&*'])
 
     letras_maisculas = string.ascii_uppercase
     letras_minusculas = string.ascii_lowercase
@@ -16,8 +18,7 @@ def criar_nova_senha():
     cabecalho(f'Nova Senha: {senha}')
 
 def tratar_senha_fraca():
-    cabecalho('Uma senha segura deve conter: ')
-    infolista(['-- Letra maiúscula', '-- Letra maiúscula', '-- Números', '-- Símbolos @#$%¨&*'])
+    infolista(['-- Você deve colocar sua senha existente: ', '-- iremos retornar uma senha mais forte'])
 
     password = input('Digite sua senha com base nos requisitos: ')
     letras_maiusculas = string.ascii_uppercase
@@ -51,9 +52,11 @@ def tratar_senha_fraca():
         for _ in range(caracteres_faltantes):
             nova_senha += random.choice(string.ascii_latters + string.digits + '@#$%¨&*')
     
-    cabecalho(f'Nova Senha: {nova_senha}')
+    cabecalho(f'Senha tratada com sucesso, nova senha: {nova_senha}')
  
 def verificar_senha_segura():
+    infolista(['--Verificamos se a senha é segura ou não', '- Você deve colocar sua senha existente:'])
+
     password = input('Digite sua senha com base nos requisitos: ')
 
     letras_maisculas = string.ascii_uppercase
@@ -77,3 +80,5 @@ def verificar_senha_segura():
     if not any(char in simbolos for char in password):
         print('A senha não contém letra maiúscula.')
         return
+    
+    cabecalho('SENHA SEGURA!')
