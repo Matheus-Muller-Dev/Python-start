@@ -7,11 +7,11 @@ while True:
 
     if resp == 1:
         criar_nova_senha()
-    if resp == 2:
+    elif resp == 2:
         tratar_senha_fraca()
-    if resp == 3:
+    elif resp == 3:
         verificar_senha_segura()
-    if resp == 0:
+    elif resp == 4:
         cabecalho('Saindo do sistema... Até logo!')
         sleep(1)
         break
