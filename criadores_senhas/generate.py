@@ -15,6 +15,7 @@ while True:
         cabecalho('Saindo do sistema... Até logo!')
         sleep(1)
         break
+    
     else:
         cabecalho('ERRO! Digite uma opção válida!')
         sleep(2)

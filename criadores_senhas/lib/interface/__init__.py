@@ -37,3 +37,11 @@ def menu(lista):
 
     opc = leiaInt('Sua Opção: ')
     return opc
+
+def infolista(texto):
+    print(linha())
+
+    for i in texto:
+        print(f'{i}')
+
+    print(linha())

@@ -11,7 +11,14 @@ def criar_nova_senha():
 
     caracteres = letras_maisculas + letras_minusculas + numeros + simbolos
 
+    senha = ''.join(random.sample(caracteres, 15))
+
+    cabecalho(f'Nova Senha: {senha}')
+
 def tratar_senha_fraca():
+    cabecalho('Uma senha segura deve conter: ')
+    infolista(['-- Letra maiúscula', '-- Letra maiúscula', '-- Números', '-- Símbolos @#$%¨&*'])
+
     password = input('Digite sua senha com base nos requisitos: ')
     letras_maiusculas = string.ascii_uppercase
     letras_minusculas = string.ascii_lowercase
@@ -31,7 +38,7 @@ def tratar_senha_fraca():
     if not any(char.isdigit() for char in password):
         faltantes['numeros'] = random.choice(numeros)
 
-    if not any(char in '@#$%¨&*' () for char in password):
+    if not any(char in '@#$%¨&*' for char in password):
         faltantes['simbolos'] = random.choice(simbolos)
     
     # Combinar a senha antiga com os caracteres faltantes
@@ -72,24 +79,3 @@ def verificar_senha_segura():
     if not any(char in simbolos for char in password):
         print('A senha não contém letra maiúscula.')
         return
-    
-    # em teoria o menu 
-
-    # escolha = input(Color.BOLD +"Digite o número da opção desejada: " + Color.END)
-
-
-    #     if escolha == "1":
-    #         criar_nova_senha()
-    #     elif escolha == "2":
-    #         tratar_senha_fraca()
-    #     elif escolha == "3":
-    #         verifica_senha_segura()
-    #     elif escolha == "0":
-    #         print("Saindo...")
-    #         break
-    #     else:
-    #         print("Opção inválida. Por favor, escolha uma das opções listadas.")
-
-# if __name__ = "__main__":
-#     menu()
-# 1
