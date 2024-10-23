@@ -16,7 +16,7 @@ def criar_nova_senha():
     senha = ''.join(random.sample(caracteres, 15))
 
     limpar_tela()
-    cabecalho(f'Nova Senha: {senha}')
+    cabecalho('Nova Senha: ' + Color.RED + senha)
 
 def tratar_senha_fraca():
     limpar_tela()
@@ -56,7 +56,7 @@ def tratar_senha_fraca():
             nova_senha += random.choice(string.ascii_letters + string.digits + '@#$%¨&*')
 
     limpar_tela()
-    cabecalho(f'Senha tratada com sucesso, nova senha: {nova_senha}')
+    cabecalho('Senha tratada com sucesso, nova senha: ' + Color.RED + nova_senha)
  
 def verificar_senha_segura():
     limpar_tela()

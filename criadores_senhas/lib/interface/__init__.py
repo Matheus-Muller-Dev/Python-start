@@ -1,5 +1,14 @@
 import os
 import platform
+from colorama import init, Fore
+
+class Color:
+    RED = '\033[91m'  # Vermelho
+    GREEN = '\033[92m'  # Verde
+
+     # Formatação de texto
+    BOLD = '\033[1m'  # Negrito
+    UNDERLINE = '\033[4m'  # Sublinhado
 #
 def leiaInt(msg):
     while True:
@@ -22,9 +31,9 @@ def linha(tam = 42):
 
 #
 def cabecalho(txt):
-    print(linha())
-    print(txt.center(42))
-    print(linha())
+    print(Color.GREEN + linha())
+    print(Color.GREEN + txt.center(42))
+    print(Color.GREEN + linha())
 
 #
 def menu(lista):
