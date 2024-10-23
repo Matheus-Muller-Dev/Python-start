@@ -1,3 +1,5 @@
+import os
+import platform
 #
 def leiaInt(msg):
     while True:
@@ -45,3 +47,9 @@ def infolista(texto):
         print(f'{i}')
 
     print(linha())
+
+def limpar_tela():
+    if platform.system() == 'Linux':
+        os.system('clear')
+    else:
+        os.system('cls')
