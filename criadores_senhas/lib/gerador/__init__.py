@@ -15,9 +15,12 @@ def criar_nova_senha():
 
     senha = ''.join(random.sample(caracteres, 15))
 
+    limpar_tela()
     cabecalho(f'Nova Senha: {senha}')
 
 def tratar_senha_fraca():
+    limpar_tela()
+    cabecalho('Melhorar senha: ')
     infolista(['-- Você deve colocar sua senha existente: ', '-- iremos retornar uma senha mais forte'])
 
     password = input('Digite sua senha com base nos requisitos: ')
@@ -51,11 +54,14 @@ def tratar_senha_fraca():
 
         for _ in range(caracteres_faltantes):
             nova_senha += random.choice(string.ascii_letters + string.digits + '@#$%¨&*')
-    
+
+    limpar_tela()
     cabecalho(f'Senha tratada com sucesso, nova senha: {nova_senha}')
  
 def verificar_senha_segura():
-    infolista(['--Verificamos se a senha é segura ou não', '- Você deve colocar sua senha existente:'])
+    limpar_tela()
+    cabecalho('VERIFICAR SENHA SEGURA:')
+    infolista(['--Vamos verificamos se a senha é segura ou não', '- Você deve colocar sua senha existente:'])
 
     password = input('Digite sua senha com base nos requisitos: ')
     letras_maiusculas = string.ascii_uppercase
@@ -63,24 +69,26 @@ def verificar_senha_segura():
     numeros = string.digits
     simbolos = '@#$%¨&*'
 
+    limpar_tela()
      # Verifica se a senha de contém pelo menos uma letra maiúscula
     if not any(char in letras_maiusculas for char in password):
-        print('A senha não contém letra maiúscula.')
+        cabecalho('A senha não contém letra maiúscula.')
         return
+        
     
     # Verifica se a senha de contém pelo menos uma letra minusculas
     if not any(char in letras_minusculas for char in password):
-        print('A senha não contém letra minusculas.')
+        cabecalho('A senha não contém letra minusculas.')
         return
     
     # Verifica se a senha de contém pelo menos um numero
     if not any(char in numeros for char in password):
-        print('A senha não contém números.')
+        cabecalho('A senha não contém números.')
         return
     
     # Verifica se a senha de contém pelo menos uma letra simbolos
     if not any(char in simbolos for char in password):
-        print('A senha não contém simbolos.')
+        cabecalho('A senha não contém simbolos.')
         return
     
     cabecalho('SENHA SEGURA!')
