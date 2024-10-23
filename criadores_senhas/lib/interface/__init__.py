@@ -5,10 +5,17 @@ from colorama import init, Fore
 class Color:
     RED = '\033[91m'  # Vermelho
     GREEN = '\033[92m'  # Verde
+    # caso desejar usar mais cores
+    # YELLOW = '\033[93m'  # Amarelo
+    # BLUE = '\033[94m'  # Azul
+    # MAGENTA = '\033[95m'  # Magenta
+    # CYAN = '\033[96m'  # Ciano
+    # WHITE = '\033[97m'  # Branco
 
-     # Formatação de texto
-    BOLD = '\033[1m'  # Negrito
-    UNDERLINE = '\033[4m'  # Sublinhado
+    # Formatação de texto
+    # BOLD = '\033[1m'  # Negrito
+    # UNDERLINE = '\033[4m'  # Sublinhado
+    # END = '\033[0m'  # Resetar formatação
 #
 def leiaInt(msg):
     while True:
