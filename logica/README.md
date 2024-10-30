@@ -7,7 +7,7 @@
 - [X] 1. Escreva um algoritmo para calcular a área de um retângulo.
 - [X] 2. Desenvolva um programa que verifique se um número é par ou ímpar.
 - [X] 3. Crie um algoritmo para calcular o fatorial de um número.
-- [ ] 4. Faça um programa que determine se uma pessoa é maior de idade.
+- [X] 4. Faça um programa que determine se uma pessoa é maior de idade.
 - [ ] 5. Desenvolva um algoritmo para calcular a média de uma lista de números.
 - [ ] 6. Crie um programa que converte Celsius para Fahrenheit.
 - [ ] 7. Escreva um algoritmo para verificar se um número é primo.
