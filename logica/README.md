@@ -8,7 +8,7 @@
 - [X] 2. Desenvolva um programa que verifique se um número é par ou ímpar.
 - [X] 3. Crie um algoritmo para calcular o fatorial de um número.
 - [X] 4. Faça um programa que determine se uma pessoa é maior de idade.
-- [ ] 5. Desenvolva um algoritmo para calcular a média de uma lista de números.
+- [X] 5. Desenvolva um algoritmo para calcular a média de uma lista de números.
 - [ ] 6. Crie um programa que converte Celsius para Fahrenheit.
 - [ ] 7. Escreva um algoritmo para verificar se um número é primo.
 - [ ] 8. Desenvolva um programa que encontre o maior número em uma lista.
