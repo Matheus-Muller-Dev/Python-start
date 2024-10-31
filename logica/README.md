@@ -9,10 +9,10 @@
 - [X] 3. Crie um algoritmo para calcular o fatorial de um número.
 - [X] 4. Faça um programa que determine se uma pessoa é maior de idade.
 - [X] 5. Desenvolva um algoritmo para calcular a média de uma lista de números.
-- [ ] 6. Crie um programa que converte Celsius para Fahrenheit.
-- [ ] 7. Escreva um algoritmo para verificar se um número é primo.
-- [ ] 8. Desenvolva um programa que encontre o maior número em uma lista.
-- [ ] 9. Crie um algoritmo para calcular o IMC.
+- [X] 6. Crie um programa que converte Celsius para Fahrenheit.
+- [X] 7. Escreva um algoritmo para verificar se um número é primo.
+- [X] 8. Desenvolva um programa que encontre o maior número em uma lista.
+- [X] 9. Crie um algoritmo para calcular o IMC.
 - [ ] 10. Faça um programa que verifique se um triângulo é equilátero.
 
 ### Nível Intermediário (11 - 20)
