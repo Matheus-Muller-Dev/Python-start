@@ -13,7 +13,7 @@
 - [X] 7. Escreva um algoritmo para verificar se um número é primo.
 - [X] 8. Desenvolva um programa que encontre o maior número em uma lista.
 - [X] 9. Crie um algoritmo para calcular o IMC.
-- [ ] 10. Faça um programa que verifique se um triângulo é equilátero.
+- [X] 10. Faça um programa que verifique se um triângulo é equilátero.
 
 ### Nível Intermediário (11 - 20)
 
