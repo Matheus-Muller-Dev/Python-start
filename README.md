@@ -3,43 +3,46 @@
 <img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
 </p>
 
-- Este repositório contém diversos projetos e scripts relacionados à programação em Python e matemática. Abaixo está uma explicação da estrutura de diretórios e do conteúdo de cada pasta:
+Bem-vindo ao **Python-start**, um repositório que reúne diversos projetos e scripts voltados à programação em Python e matemática. Cada pasta possui um tema e contém arquivos e documentação que facilitam o entendimento e o uso de cada projeto. Confira a estrutura abaixo:
 
-- Estrutura de Diretórios
-adivinha :
-Contém o código-fonte e arquivos relacionados ao projeto de um jogo de adivinhação. Inclui scripts, documentação e testes do jogo.
+## Estrutura de Diretórios
 
-- desafios_python :
-Nesta massa estão colocados desafios de programação em Python. Cada desafio tem uma subpasta com a descrição do problema e a solução correspondente.
+- **adivinha**: Contém o código-fonte e arquivos para o jogo de adivinhação, incluindo scripts principais, documentação e testes do jogo.
 
-- matematica :
-Scripts e projetos voltados para cálculos matemáticos e algoritmos. Exemplos incluem resolução de equações, álgebra e estatísticas.
+- **desafios_python**: Reúne desafios de programação em Python. Cada desafio está em uma subpasta, com a descrição do problema e a respectiva solução.
 
-- pythonProjeto :
-Um projeto mais completo escrito em Python. Contém o código-fonte principal, a documentação explicando o projeto e possíveis bibliotecas utilizadas.
+- **matematica**: Scripts e projetos para cálculos matemáticos e algoritmos, como resolução de equações, álgebra e estatísticas.
 
-- _senhas :
-Scripts para gerar senhas seguras, juntamente com documentação sobre como usar os criadores de senhas.
+- **pythonProjeto**: Um projeto mais completo em Python. Inclui o código-fonte principal, documentação explicativa e dependências necessárias.
 
-- jupyter :
-Notebooks Jupyter usados ​​para experimentos, tutoriais ou análise de dados. Esta pasta contém arquivos .ipynbque podem ser executados e visualizados no Jupyter.
+- **_senhas**: Scripts para gerar senhas seguras, com documentação sobre como utilizar os geradores de senha.
 
-- python :
-Scripts diversos em Python, geralmente pequenos testes ou exemplos de funcionalidades. Esta pasta contém códigos não relacionados diretamente a um projeto maior.
+- **jupyter**: Contém Notebooks Jupyter (.ipynb) para experimentos, tutoriais e análise de dados. Pode ser executado e visualizado no Jupyter Notebook.
 
-- dados :
-Arquivos de dados usados ​​pelos scripts e projetos. Inclui conjuntos de dados em formatos como CSV, JSON, entre outros.
+- **python**: Scripts diversos em Python, com pequenos exemplos e testes de funcionalidades.
 
-- Lógica :
-Projetos e exemplos que envolvem lógica de programação e algoritmos específicos. Aqui estão scripts que implementam soluções baseadas em lógica.
+- **dados**: Armazena conjuntos de dados (CSV, JSON, etc.) utilizados nos scripts e projetos do repositório.
 
-- python2 :
-Códigos escritos em Python 2. É importante observar que estes scripts foram projetados para rodar em uma versão anterior do Python. Certifique-se de ter o ambiente protegido.
+- **Lógica**: Projetos e exemplos focados em lógica de programação e algoritmos específicos. Esta pasta contém soluções baseadas em lógica.
 
-- Para contribuir com <nome_do_projeto>, siga estas etapas:
+- **python2**: Scripts escritos em Python 2. Certifique-se de ter o ambiente apropriado para executar estes códigos, pois eles foram projetados para uma versão anterior do Python.
 
-1. Bifurque este repositório.
-2. Crie um branch: `git checkout -b <nome_branch>`.
-3. Faça suas alterações e confirme-as: `git commit -m '<mensagem_commit>'`
-4. Envie para o branch original: `git push origin <nome_do_projeto> / <local>`
-5. Crie a solicitação de pull.
+## Como Contribuir
+
+Sinta-se a vontade de contribuir com o projeto, siga estas etapas:
+
+1. Faça um fork deste repositório.
+2. Crie uma branch para sua contribuição:
+   ```bash
+   git checkout -b <nome_da_branch>
+3. Realize suas alterações e faça o commit:
+   ```bash
+   git commit -m '<mensagem_do_commit>'
+4. Envie as alterações para o repositório original:
+   ```bash
+   git push origin -u <nome_da_branch>
+5. Crie um Pull Request para revisão.
+
+## Mande um email para ter sua solicitação pull revisada. 
+
+matheusmiiller44@gmail.com

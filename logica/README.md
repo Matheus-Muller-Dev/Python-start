@@ -18,7 +18,7 @@
 ### Nível Intermediário (11 - 20)
 
 - [ ] 11. Desenvolva um algoritmo para ordenar uma lista de números.
-- [ ] 12. Crie um programa que encontre o menor número em uma lista.
+- [ ] 12. Crie um programa que encontre o menor número em uma lista, liste todos os índices onde ele aparece, e permita ao usuário substituí-lo em todas as suas ocorrências.
 - [ ] 13. Escreva um algoritmo para calcular a soma de uma série geométrica.
 - [ ] 14. Desenvolva um programa que verifique se uma string é palíndromo.
 - [ ] 15. Crie um algoritmo para calcular o MDC de dois números.
