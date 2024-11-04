@@ -20,7 +20,7 @@
 - [X] 11. Desenvolva um algoritmo para ordenar uma lista de números.
 - [X] 12. Crie um programa que encontre o menor número em uma lista, liste todos os índices onde ele aparece, e permita ao usuário substituí-lo em todas as suas ocorrências.
 - [X] 13. Escreva um algoritmo para calcular a soma de uma série geométrica.
-- [ ] 14. Desenvolva um programa que verifique se uma string é palíndromo.
+- [X] 14. Desenvolva um programa que verifique se uma string é palíndromo.
 - [ ] 15. Crie um algoritmo para calcular o MDC de dois números.
 - [ ] 16. Faça um programa que encontre o índice de um elemento em uma lista.
 - [ ] 17. Desenvolva um algoritmo para calcular a potência de um número.
