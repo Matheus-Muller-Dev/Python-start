@@ -22,7 +22,7 @@
 - [X] 13. Escreva um algoritmo para calcular a soma de uma série geométrica.
 - [X] 14. Desenvolva um programa que verifique se uma string é palíndromo.
 - [X] 15. Crie um algoritmo para calcular o MDC de dois números.
-- [ ] 16. Faça um programa que encontre o índice de um elemento em uma lista.
+- [X] 16. Faça um programa que encontre o índice de um elemento em uma lista.
 - [ ] 17. Desenvolva um algoritmo para calcular a potência de um número.
 - [ ] 18. Crie um programa que verifique se um número é perfeito.
 - [ ] 19. Escreva um algoritmo para calcular a raiz quadrada de um número.
