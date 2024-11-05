@@ -19,3 +19,4 @@ while True:
     else:
         cabecalho('ERRO! Digite uma opção válida!')
         sleep(2)
+        limpar_tela()
