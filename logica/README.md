@@ -24,9 +24,9 @@
 - [X] 15. Crie um algoritmo para calcular o MDC de dois números.
 - [X] 16. Faça um programa que encontre o índice de um elemento em uma lista.
 - [X] 17. Desenvolva um algoritmo para calcular a potência de um número.
-- [ ] 18. Crie um programa que verifique se um número é perfeito.
-- [ ] 19. Escreva um algoritmo para calcular a raiz quadrada de um número.
-- [ ] 20. Desenvolva um programa que encontre o elemento mais frequente em uma lista.
+- [X] 18. Crie um programa que verifique se um número é perfeito.
+- [X] 19. Escreva um algoritmo para calcular a raiz quadrada de um número.
+- [X] 20. Desenvolva um programa que encontre o elemento mais frequente em uma lista.
 
 ### Nível Avançado (20 - 30)
 
