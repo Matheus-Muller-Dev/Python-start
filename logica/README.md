@@ -30,7 +30,7 @@
 
 ### Nível Avançado (20 - 30)
 
-- [ ] 21. Desenvolva um algoritmo para resolver o problema do caixeiro viajante.
+- [X] 21. Desenvolva um algoritmo para resolver o problema do caixeiro viajante.
 - [ ] 22. Crie um programa que implemente o algoritmo de busca binária.
 - [ ] 23. Escreva um algoritmo para resolver o problema da mochila.
 - [ ] 24. Desenvolva um programa que implemente o algoritmo de ordenação rápida.
