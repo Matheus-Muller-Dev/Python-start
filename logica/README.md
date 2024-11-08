@@ -34,7 +34,7 @@
 - [X] 22. Crie um programa que implemente o algoritmo de busca binária.
 - [X] 23. Escreva um algoritmo para resolver o problema da mochila(knapsack problem).
 - [X] 24. Desenvolva um programa que implemente o algoritmo de ordenação rápida.
-- [ ] 25. Crie um algoritmo para calcular a distância de Hamming.
+- [X] 25. Crie um algoritmo para calcular a distância de Hamming.
 - [ ] 26. Faça um programa que implemente o algoritmo de Dijkstra.
 - [ ] 27. Desenvolva um algoritmo para resolver o problema do fluxo máximo.
 - [ ] 28. Crie um programa que implemente o algoritmo de Bellman-Ford.
