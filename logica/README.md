@@ -32,8 +32,8 @@
 
 - [X] 21. Desenvolva um algoritmo para resolver o problema do caixeiro viajante.
 - [X] 22. Crie um programa que implemente o algoritmo de busca binária.
-- [ ] 23. Escreva um algoritmo para resolver o problema da mochila(knapsack problem).
-- [ ] 24. Desenvolva um programa que implemente o algoritmo de ordenação rápida.
+- [X] 23. Escreva um algoritmo para resolver o problema da mochila(knapsack problem).
+- [X] 24. Desenvolva um programa que implemente o algoritmo de ordenação rápida.
 - [ ] 25. Crie um algoritmo para calcular a distância de Hamming.
 - [ ] 26. Faça um programa que implemente o algoritmo de Dijkstra.
 - [ ] 27. Desenvolva um algoritmo para resolver o problema do fluxo máximo.
