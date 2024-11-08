@@ -17,7 +17,7 @@ def leiaInt(msg):
             return n
 
 # aqui podemos definir as arestas de parte superior e inferior
-def linha(tam = 42):
+def linha(tam = 42):    
     return '=' * tam
 
 #

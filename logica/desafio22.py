@@ -14,7 +14,7 @@ def busca_binaria(lista, valor_procurado):
         
         return -1  # elemento não encontrado
     
-lista_ordenada = [20, 31, 40, 45, 51] 
+lista_ordenada = [20, 31, 40, 45, 51]
 valor = 40
 resultado = busca_binaria(lista_ordenada, valor)
 
