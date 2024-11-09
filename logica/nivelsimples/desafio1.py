@@ -3,9 +3,6 @@
 #     area = base * altura
 #     return area
 
-
-
-
 base = float(input("Qual é a base: "))
 altura = float(input("Qual altura do retangulo? "))
 
