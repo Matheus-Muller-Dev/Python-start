@@ -39,4 +39,4 @@
 - [X] 27. Desenvolva um algoritmo para resolver o problema do fluxo máximo(Edmonds-Karp).
 - [X] 28. Crie um programa que implemente o algoritmo de Bellman-Ford.
 - [X] 29. Escreva um algoritmo para calcular a complexidade de Kolmogorov.
-- [ ] 30. Desenvolva um programa que implemente o algoritmo de Huffman.
+- [X] 30. Desenvolva um programa que implemente o algoritmo de Huffman.
