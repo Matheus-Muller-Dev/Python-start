@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informações</title>
+</head>
+<body>
+    <h1>Lista de informações</h1>
+    <table border='1'>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Cidade</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for item in informacoes %}
+            <tr>
+                <td>{{ item.nome }}</td>
+                <td>{{ item.idade }}</td>
+                <td>{{ item.cidade }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
